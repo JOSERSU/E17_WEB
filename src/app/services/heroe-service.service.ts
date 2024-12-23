@@ -9,7 +9,7 @@ import { Heroes } from '../data/heroe-entity';
 })
 export class HeroeServiceService {
 
-  urlApi = "http://localhost:8080/api/v1/heroes"
+  urlApi = "https://superheroes-dc0k.onrender.com/api/v1/heroes"
 
   constructor(private httpCliente: HttpClient) { }
 
